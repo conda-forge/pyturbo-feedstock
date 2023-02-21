@@ -24,6 +24,7 @@ requirements:
     - numpy >=1.14
     - pyoccad >=0.5.0
     - ambiance
+    - pythermo
 
 test:
   imports:
