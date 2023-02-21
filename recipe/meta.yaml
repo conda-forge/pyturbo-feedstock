@@ -1,5 +1,5 @@
 {% set name = "pyturbo" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/twiinit/pyturbo/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 937e7f5d0c477a70acfdc88dba053506f7d06411bca73381a4e2633954bbe729
+  sha256: 65eae229f8091f0f1de95bd1748528068cae54ff4f10be7454c52a9297204ef2
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - numpy >=1.14
     - pyoccad >=0.5.0
     - ambiance
+    - pythermo
 
 test:
   imports:
